@@ -1,0 +1,117 @@
+body{
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.863);
+  margin: 0%;
+  font-family: Arial;
+}
+.nav-ul li a{
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+}
+.nav-ul li{
+  display: inline-block;
+  padding: 10px;
+}
+.nav-ul {
+  background-color: crimson;
+  margin: 0;
+  top:0%;
+  width: 100%;
+  padding: 10px;
+  position: absolute;
+}
+.inputbox{
+  display: block;
+  margin: 16px;
+  width: 300px;
+  padding: 7px;
+  border: 1px solid crimson;
+  background-color: rgba(0, 0, 0, 0.866);
+  color: #fff;
+}
+.Sign {
+  margin: 13% 30% 0% 30%;
+  color: #fff;
+}
+.login {
+  margin: 13% 30% 0% 30%;
+  color: #fff;
+}
+.button {
+  margin-top: 1%;
+  margin-left: 30%;
+  margin-bottom: 0;
+  width: 100px;
+  background-color: crimson;
+  padding: 10px;
+  border-color: crimson;
+  border-radius: 10%;
+  color: #fff;
+}
+table{
+  border-collapse: collapse;
+  max-width: 600px;
+  width: 100%;
+  margin: 3% auto;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.866);
+}
+table th, table td{
+  border: 2px solid crimson;
+  padding: 7px;
+}
+table #sp2{
+  border: 2px solid crimson;
+  padding: 7px;
+  text-align: center;
+}
+h1{
+  color: #fff;
+  margin: 10% 50% 0% 0%;
+}
+#Head{
+  color: #fff;
+  margin: 10% 30% 0% 30%;
+}
+.inputbox1{
+  display: block;
+  margin: 1% 30% 0% 30%;
+  width: 90px;
+  padding: 10px;
+  border: 1px solid crimson;
+  background-color: rgba(0, 0, 0, 0.459);
+  color: #fff;
+}
+.inputbox2{
+  display: block;
+  margin: -2.8% 0% 0% 38.5%;
+  width: 300px;
+  padding: 10px;
+  border: 1px solid crimson;
+  background-color: rgba(0, 0, 0, 0.866);
+  color: #fff;
+}
+table #time {
+  width: 100px;
+}
+.button1 {
+  display: block;
+  margin: -2.8% 0% 0% 63%;
+  width: 100px;
+  background-color: crimson;
+  padding: 10px;
+  border-color: crimson;
+  border-radius: 10%;
+  color: #fff;
+}
+#mark{
+  width: 60px;
+  background-color: crimson;
+  padding: 3px;
+  border-color: crimson;
+  border-radius: 10%;
+  color: #fff;
+  float: right;
+}
