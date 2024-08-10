@@ -1,0 +1,418 @@
+body {
+  margin: 0%;
+  background-color: rgba(0, 0, 0, 0.863);
+  color: white;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  font-family: "Times New Roman", Times, serif;
+}
+.nav-ul li a {
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+}
+.nav-ul li {
+  display: inline-block;
+  padding: 10px;
+}
+.nav-ul {
+  background-color: crimson;
+  margin: 0% 0% 0% -1%;
+  top: 0%;
+  width: 100vw;
+  padding: 10px;
+  position: absolute;
+}
+.inputbox {
+  display: block;
+  margin: 16px;
+  width: 300px;
+  padding: 7px;
+  border: 1px solid crimson;
+  background-color: rgba(0, 0, 0, 0.866);
+  color: #fff;
+}
+#dark .Sign {
+  margin: 13% 30% 0% 30%;
+  color: #fff;
+  position: absolute;
+}
+#light .Sign {
+  margin: 13% 30% 0% 30%;
+  color: #fff;
+  position: absolute;
+}
+#move {
+  margin: 0% 0% 0% 920%;
+}
+.home1 {
+  margin: 0% 0% 0% 0%;
+  font-size: 20px;
+  color: #fff;
+}
+#stay {
+  margin-left: 1%;
+  margin-top: 0%;
+  margin-right: -0.5%;
+  margin-bottom: -0.5%;
+  width: 30px;
+  height: 25px;
+  padding: 3px;
+  color: white;
+}
+#light .login {
+  margin: 13% 30% 0% 30%;
+  color: #fff;
+  position: absolute;
+}
+#dark .login {
+  margin: 13% 30% 0% 30%;
+  color: #fff;
+  position: absolute;
+}
+/* .logbut {
+  margin-top: 26%;
+  margin-left: 30%;
+  margin-bottom: 0;
+  width: 100px;
+  background-color: crimson;
+  padding: 10px;
+  border-color: crimson;
+  border-radius: 10%;
+  color: #fff;
+} */
+
+table {
+  border-collapse: collapse;
+  max-width: 750px;
+  width: 100%;
+  /* height: 100%; */
+  margin: 3% 0 0 20%;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.866);
+  z-index: 1;
+  position: absolute;
+}
+table th,
+table td {
+  border: 2px solid crimson;
+  padding: 7px;
+}
+table #sp2 {
+  border: 2px solid crimson;
+  padding: 7px;
+  text-align: center;
+}
+
+table #sp1 {
+  border: 2px solid crimson;
+  padding: 7px;
+  text-align: center;
+}
+.listhead {
+  color: #fff;
+  margin: -3.3% 0% 0% 26%;
+  font-size: 37px;
+  position: relative;
+}
+#p2 {
+  color: #fff;
+  margin: -3.3% 0% 0% 24%;
+  font-size: 37px;
+}
+#light .listhead {
+  color: crimson;
+  margin: -3.3% 0% 0% 26%;
+  font-size: 37px;
+}
+#Head {
+  color: crimson;
+  margin: 10% 0% 0% 22%;
+  font-size: 37px;
+}
+.inputbox1 {
+  display: block;
+  margin: 1.3% 31% 0% 30%;
+  width: 90px;
+  padding: 8px;
+  border: 1px solid crimson;
+  background-color: rgba(0, 0, 0, 0.459);
+  color: #fff;
+}
+.inputbox0 {
+  display: block;
+  margin: 1.3% 31% -4% 21%;
+  width: 90px;
+  padding: 8px;
+  border: 1px solid crimson;
+  background-color: rgba(0, 0, 0, 0.459);
+  color: #fff;
+}
+.inputbox2 {
+  display: block;
+  margin: -2.8% 0% 0% 38.8%;
+  width: 300px;
+  padding: 10px;
+  border: 1px solid crimson;
+  background-color: rgba(0, 0, 0, 0.866);
+  color: #fff;
+}
+table #time {
+  width: 100px;
+}
+table #date {
+  width: 100px;
+}
+.switch {
+  float: right;
+  margin-right: 0%;
+  top: 2%;
+  bottom: -5%;
+  color: #fff;
+}
+.pending {
+  color: #fff;
+}
+#dark .pending p {
+  color: #fff;
+  font-size: 40px;
+  margin: -3.2% 40% 0% 26%;
+}
+#light .pending p {
+  color: crimson;
+  font-size: 40px;
+  margin: -3.2% 40% 0% 26%;
+}
+#mark {
+  width: 30px;
+  height: 20px;
+  background-color: crimson;
+  padding: 4px;
+  border-color: crimson;
+  border-radius: 40%;
+  color: #fff;
+  float: right;
+}
+#mark:hover {
+  width: 32px;
+  height: 22px;
+  background-color: crimson;
+  padding: 4px;
+  border-color: crimson;
+  border-radius: 40%;
+  color: #fff;
+  float: right;
+}
+@media screen and (max-width: 600px) {
+  .Sign h1 {
+    margin: 40% 10% 0% 10%;
+  }
+  .home1 {
+    margin: 0% 0% 0% 0%;
+    font-size: 15px;
+    color: #fff;
+  }
+  #stay {
+    margin-left: 2%;
+    margin-top: 0%;
+    margin-right: -0.5%;
+    margin-bottom: -1.7%;
+    width: 15px;
+    height: 19px;
+    padding: 2px;
+    color: white;
+  }
+#dark .switch{
+  float: right;
+  margin-right: 2%;
+  top: 70%;
+  bottom: -5%;
+  color: #fff;
+  position: absolute;
+  }
+  #dark label{
+    float: right;
+    margin-right: 0.5%;
+    color: #fff;
+    margin-top: 1%;
+    margin-left: -5%;
+    font-size: 7px;
+    position: relative;
+}
+#light label{
+  float: right;
+  margin-right: 0.5%;
+  color: #fff;
+  margin-top: 1%;
+  margin-left: -5%;
+  font-size: 7px;
+  position: relative;
+}
+  .inputbox {
+    display: block;
+    margin: 8px;
+    width: 170px;
+    padding: 3px;
+    border: 1px solid crimson;
+    background-color: rgba(0, 0, 0, 0.866);
+    color: #fff;
+  }
+  #light .signbut {
+    margin-top: 40%;
+    margin-left: 35%;
+    margin-bottom: 0;
+    width: 90px;
+    background-color: crimson;
+    padding: 5px;
+    border-color: crimson;
+    border-radius: 10%;
+    position: absolute;
+    color: #fff;
+  }
+  #dark .signbut {
+    margin-top: 40%;
+    margin-left: 35%;
+    margin-bottom: 0;
+    width: 90px;
+    background-color: crimson;
+    padding: 5px;
+    border-color: crimson;
+    border-radius: 10%;
+    position: absolute;
+    color: #fff;
+  }
+  .nav-ul {
+    background-color: crimson;
+    margin: 0% 0 0 -2%;
+    top: 0%;
+    width: 100vw;
+    padding: 1px;
+    position: absolute;
+  }
+  .nav-ul li a {
+    padding: 2px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+  }
+  .nav-ul li {
+    display: inline-block;
+    padding: 5px;
+  }
+  #Head {
+    color: #fff;
+    margin: 30% 10% 0% 10%;
+  }
+  .inputbox1 {
+    display: block;
+    margin: 2% 5% 0% 8%;
+    width: 87px;
+    font-size: 13px;
+    padding: 2.7px;
+    border: 1px solid crimson;
+    background-color: rgba(0, 0, 0, 0.459);
+    color: #fff;
+  }
+  .inputbox2 {
+    display: block;
+    margin: -7.2% 0% 1% 35%;
+    width: 143px;
+    font-size: 13px;
+    padding: 5px;
+    border: 1px solid crimson;
+    background-color: rgba(0, 0, 0, 0.866);
+    color: #fff;
+  }
+  .button1 {
+    display: block;
+    margin: -8.5% 0% 0% 78%;
+    width: 50px;
+    font-size: 12px;
+    background-color: crimson;
+    padding: 5px;
+    border-color: crimson;
+    border-radius: 20%;
+    color: #fff;
+  }
+  #light .login h1 {
+    color: #dc143c;
+    margin: 50% 0% 0% 7%;
+  }
+  #dark .login h1 {
+    color: "%fff";
+    margin: 50% 0% 0% 7%;
+  }
+  #light .logbut {
+    margin: 80% 0 0 7%;
+    width: 100px;
+    background-color: crimson;
+    padding: 10px;
+    border-color: crimson;
+    border-radius: 10%;
+    color: #fff;
+    font-family: "Times New Roman", Times, serif;
+    position: absolute;
+  }
+  #dark button .logbut {
+    margin: 80% 0 0 7%;
+    width: 100px;
+    background-color: crimson;
+    padding: 10px;
+    border-color: crimson;
+    border-radius: 10%;
+    color: #fff;
+    font-family: "Times New Roman", Times, serif;
+    position: relative;
+  }
+  table {
+    border-collapse: collapse;
+    max-width: 315px;
+    width: 100%;
+    margin: 5% auto auto 8%;
+    color: #fff;
+    font-size: 14px;
+    background-color: rgba(0, 0, 0, 0.866);
+  }
+  table th,
+  table td {
+    border: 2px solid crimson;
+    padding: 3px;
+  }
+  table #sp2 {
+    border: 2px solid crimson;
+    padding: 3px;
+    text-align: center;
+  }
+  table #time {
+    width: 60px;
+  }
+  h1 {
+    color: #fff;
+    margin: 7% 50% 0% 0%;
+    font-size: 30px;
+  }
+  #mark {
+    width: 40px;
+    background-color: crimson;
+    padding: 2px;
+    border-color: crimson;
+    border-radius: 10%;
+    color: #fff;
+    float: right;
+  }
+  html {
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+  #move {
+    margin: 0% 0% 0% 0%;
+  }
+  .pending {
+    color: #fff;
+  }
+  .pending p {
+    color: #fff;
+    margin: 20% 40% 10% 30%;
+  }
+}
